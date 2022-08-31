@@ -4,9 +4,15 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-left: 3%;
     margin-right: 3%;
+}
+.flexible-container.bg{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
 }
 .half-width{
     width: 40%;
@@ -20,7 +26,13 @@ body{
     width: 110%;
 }
 #recipies{
-    margin-top: 15%;
+    margin-top: 10%;
+}
+#recipies-top{
+    margin: 3%;
+    text-align: center;
+    width: 55%;
+    margin-left: 20%;
 }
 .half-width.allign{
     margin-top: 8%;
@@ -30,9 +42,29 @@ body{
     font-weight: bolder;
     line-height: .8em;
 }
+.orange-text{
+    color: orange;
+}
+.title-1{
+    font-size: 40px;
+    color: rgb(53, 53, 53);
+}
+.title-box{
+    font-size: 36px;
+    font-weight: 700;
+}
+.title-count{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.one-third p{
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+}
 p{
     font-size: 20px;
     line-height: 1.5em;
+    font-weight: 500;
 }
 .box-img{
     width: 400px;
@@ -51,10 +83,35 @@ p{
     text-align: center;
 }
 .counter{
-    margin: 5%;
+    margin: 10%;
 }
 #counter-box{
     display: flex;
     box-shadow: 10px 10px 30px gray;
     border-radius: 20px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    padding: 3%;
+    background-color: black;
+    text-align: center;
+}
+.footer-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: gray;
+}
+.foot-text-cl{
+    color: orange;
+}
+footer p{
+    font-size: 16px;
+    color: gray;
 }
